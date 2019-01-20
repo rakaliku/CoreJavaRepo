@@ -17,7 +17,8 @@ public class ReturnOfUserDefinedClassVariableCode1 {
 		
 		new Employee().methodOfEmployee();
 		
-		
+		//Employee class object is printed and HASH code is result
+		System.out.println(new Employee());
 	}
 
 }
