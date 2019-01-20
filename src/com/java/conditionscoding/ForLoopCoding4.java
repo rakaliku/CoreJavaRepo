@@ -5,7 +5,7 @@ import java.util.*;
 public class ForLoopCoding4 {
 
 	public static void main(String[] args) {
-		ArrayList<String> a = new ArrayList();
+		ArrayList<String> a = new ArrayList<String>();
 		a.add("Rkae");
 		a.add("sahu");
 
