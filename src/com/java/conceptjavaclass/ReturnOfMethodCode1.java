@@ -13,6 +13,8 @@ public class ReturnOfMethodCode1 {
 	public static void main(String [] args)
 	{
 		new ReturnOfMethodCode1().m1();
-		System.out.println("main method ");
+		P p1=new ReturnOfMethodCode1().m1();
+		System.out.println("main method1 ");
+		System.out.println(p1);
 	}
 }
