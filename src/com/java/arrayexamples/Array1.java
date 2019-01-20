@@ -11,18 +11,20 @@ public class Array1 {
 				// TODO Auto-generated method stub
 				for( int i = 0;i<list.length;i++ )
 					System.out.println(list[i]+" ");
-				System.out.println();
+				System.out.println("for");
+				bubblesort(list);
 			}
 			private static void bubblesort(int[] list)
 			{
-				int j=0;
-				for (int i=0;i<list.length;i++)
+				//int j=0;
+				for (int j=0;j<list.length;j++)
 				{
-					if (i<i++)
-					System.out.println(i);
+					if (j<j++)
+					System.out.println(j);
 					   else
-						   j=i++;
-						   System.out.println();
+						   j=j++;
+						   System.out.println(j);
 				}
 			}
+			
 }
