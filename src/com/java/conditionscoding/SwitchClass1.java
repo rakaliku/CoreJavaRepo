@@ -9,6 +9,8 @@ public class SwitchClass1 {
 		case 51:System.out.println("a value="+a);
 		case 901:System.out.println(a);
 		default:System.out.println("values not there is switch case");
+		
+		
 		}
 
 	}
