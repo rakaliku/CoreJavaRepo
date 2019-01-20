@@ -13,5 +13,6 @@ public class ReturnOfMethodCode1 {
 	public static void main(String [] args)
 	{
 		new ReturnOfMethodCode1().m1();
+		System.out.println("main method ");
 	}
 }
