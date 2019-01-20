@@ -14,6 +14,10 @@ public class ReturnOfUserDefinedClassVariableCode1 {
 		new ReturnOfUserDefinedClassVariableCode1().multipicationMethoD(50, 4);
 		System.out.println(new Employee().num1);/* Employee class variable 
 		printing statement */
+		
+		new Employee().methodOfEmployee();
+		
+		
 	}
 
 }
