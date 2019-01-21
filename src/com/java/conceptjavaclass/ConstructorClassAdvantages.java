@@ -19,5 +19,6 @@ public class ConstructorClassAdvantages {
 	{
 		ConstructorClassAdvantages e1= new ConstructorClassAdvantages();
 		e1.display();
+		/*Ouput will be the default bvalues of the variables*/
 	}
 }
