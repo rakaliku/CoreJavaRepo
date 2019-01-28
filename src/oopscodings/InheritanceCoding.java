@@ -20,5 +20,7 @@ still no extend keyword required to use this package's class but method should b
 	/*Why here method needs to public in its class even after the respective
 	class in extended here for inheritance*/
 	
+
+     new FinallClassCanNotInherit();
 	}
 }
