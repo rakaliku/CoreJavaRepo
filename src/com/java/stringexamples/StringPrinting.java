@@ -3,12 +3,12 @@ package com.java.stringexamples;
 public class StringPrinting {
 
 	String myname;
-	/*public StringPrinting()
+	public StringPrinting()
 	{
 		myname="rakesh sahoo";
 		System.out.println(myname);
 		
-	}*/
+	}
 	public void method()
 	{
 		System.out.println("kasa");
