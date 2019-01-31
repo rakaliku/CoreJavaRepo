@@ -1,6 +1,6 @@
 package com.java.stringexamples;
 
-public class StringPrinting {
+public final class StringPrinting {
 
 	String myname;
 	public StringPrinting()

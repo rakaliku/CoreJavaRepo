@@ -6,7 +6,7 @@ import com.java.stringexamples.StringPrinting;
 
 public class InheritanceCoding extends StringPrinting  {
 
-	 
+	 //
 	
 	public static void main(String [] args)
 	{
@@ -21,6 +21,6 @@ still no extend keyword required to use this package's class but method should b
 	class in extended here for inheritance*/
 	
 
-     new FinallClassCanNotInherit();
+     new FinallClassCanNotInherit().method();
 	}
 }
