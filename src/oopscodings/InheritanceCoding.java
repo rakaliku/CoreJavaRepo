@@ -4,9 +4,9 @@ package oopscodings;
 //import com.java.stringexamples;----Its wrong , because I have not given * or class name which will be used in below coding
 import com.java.stringexamples.StringPrinting;
 
-public class InheritanceCoding extends StringPrinting  {
+public class InheritanceCoding {//extends //StringPrinting  {
 
-	 //
+	 //StringPrinting is declared with FINAL , so cannot be inherited
 	
 	public static void main(String [] args)
 	{
