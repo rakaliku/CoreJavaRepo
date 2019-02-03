@@ -9,6 +9,8 @@ class Marks
 		this.m2=m2;
 		this.m3=m3;
 		System.out.println(m1);
+		System.out.println(m2);
+		System.out.println(m3);
 		System.out.println(this.m1);
 	}
 }
@@ -20,6 +22,6 @@ public class CompositionCoding extends Marks{
 	{
 	//Marks m=new Marks(10,20,30);
 		//new CompositionCoding();
-		Marks c=	new Marks(1,2,5);
+		new Marks(1,2,5);
 	}
 }
