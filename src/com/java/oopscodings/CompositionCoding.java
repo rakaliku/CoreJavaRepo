@@ -16,10 +16,10 @@ class Marks
 		System.out.println(this.m1);
 	}
 }
-//Implicit super constructor Marks() is undefined for default constructor. Must define an explicit constructor
-//why above comment is coming as WARNING????
-public class CompositionCoding extends Marks{
 
+public class CompositionCoding extends Marks{
+	//Implicit super constructor Marks() is undefined for default constructor. Must define an explicit constructor
+	//why above comment is coming as WARNING????
 	public static void main(String [] args)
 	{
 	//Marks m=new Marks(10,20,30);
