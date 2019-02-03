@@ -18,5 +18,6 @@ public class ConstructorDefaultCreation {
 		new Cricket(5);
 		 new ConstructorDefaultCreation(2);
 		 //new ConstructorDefaultCreation();
+		 //Above we have to add 0-arg constructor for sure  	
 	}
 }
