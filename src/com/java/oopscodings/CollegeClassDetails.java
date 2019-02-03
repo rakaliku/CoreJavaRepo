@@ -1,4 +1,4 @@
-package oopscodings;
+package com.java.oopscodings;
 
 public class CollegeClassDetails {
 

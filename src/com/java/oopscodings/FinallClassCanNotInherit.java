@@ -1,4 +1,4 @@
-package oopscodings;
+package com.java.oopscodings;
 
 final class Test
 {

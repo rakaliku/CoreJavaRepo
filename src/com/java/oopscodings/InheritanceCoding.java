@@ -1,5 +1,5 @@
 
-package oopscodings;
+package com.java.oopscodings;
 
 //import com.java.stringexamples;----Its wrong , because I have not given * or class name which will be used in below coding
 import com.java.stringexamples.StringPrinting;

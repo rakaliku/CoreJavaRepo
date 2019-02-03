@@ -1,4 +1,4 @@
-package oopscodings;
+package com.java.oopscodings;
 
    /*Below coding is not MethodRidding
    this is called METHOD HIDING*/

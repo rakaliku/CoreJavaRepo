@@ -1,4 +1,4 @@
-package oopscodings;
+package com.java.oopscodings;
 
 class Person
 {
