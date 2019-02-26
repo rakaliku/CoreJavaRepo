@@ -37,6 +37,12 @@ public class OveriddingVsMultilevelInheritance {
 		
 		//RatanKid r1=new Ratan();
 		//CHILD CLASS OBJECT CAN NOT HOLD PARENT CLASS
-				
+		
+		//below codes are primitive
+		RatanKid r1=(RatanKid)r;
+		r1.eat();
+		
+		Ratan r2=(Ratan)p;
+		r2.eat();
 	}
 }
