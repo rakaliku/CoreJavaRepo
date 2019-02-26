@@ -5,6 +5,7 @@ public class TypeCstingCode {
 	
 	public static void main(String [] args)
 	{
+		//implicit type casting done by COMPILER
 		byte b=10;
 		short s=9;
 		int i=s;
