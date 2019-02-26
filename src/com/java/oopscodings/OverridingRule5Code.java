@@ -18,7 +18,8 @@ public class OverridingRule5Code extends Parent {
 	}
 	public static void main(String [] args)
 	{
-		Parent p=new OverridingRule5Code();
-		p.m1();
+		//Parent p=new OverridingRule5Code();
+		//p.m1();
+		m1();
 	}
 }
