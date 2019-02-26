@@ -6,7 +6,7 @@ public class PracticeCode2 {
 	{
 		try {
 			Double number =Double.valueOf(12D);
-			
+			System.out.println(number);
 		}
 	//	System.out.println("inside statement");
 		catch(NumberFormatException ex)
