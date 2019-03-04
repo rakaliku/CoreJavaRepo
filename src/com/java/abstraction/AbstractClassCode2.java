@@ -16,7 +16,7 @@ public class AbstractClassCode2 extends Test3{
 	}
 
 	public static void main(String[] args) {
-		Test3 t=new AbstractClassCode2();
+		/*Test3 t=*/new AbstractClassCode2();
 		AbstractClassCode2 t1=new AbstractClassCode2();
 		//Test3 t2=(Test3)t1;                        ???????????????/
 		
