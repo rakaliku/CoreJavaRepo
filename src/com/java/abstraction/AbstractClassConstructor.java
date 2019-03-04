@@ -9,8 +9,10 @@ public class AbstractClassConstructor extends Test{
 
 	public static void main(String[] args) {
 	AbstractClassConstructor a=new AbstractClassConstructor();
-	//Test t=(Test)a;
+	Test t=(Test)a;
 	System.out.println("raka");
+	System.out.println("likun");
+	System.out.println("rakesh");
 	}
 	
 }
