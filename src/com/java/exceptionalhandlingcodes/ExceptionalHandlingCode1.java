@@ -23,6 +23,9 @@ public class ExceptionalHandlingCode1 {
 		}
 		catch(ArithmeticException  ae)
 		{
+			ae.printStackTrace();
+			System.out.println(ae.getMessage());
+			System.out.println(ae.toString());
 			System.out.println("     catch block     ");
 			System.out.println(10/2);
 		}
