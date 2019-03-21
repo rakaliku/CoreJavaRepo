@@ -2,14 +2,16 @@ package com.java.exceptionalhandlingcodes;
 
 public class ThrowsKeywordAtMainMethod {
 
-	void detailsMethod() throws InterruptedException
+	@SuppressWarnings({ "deprecation", "static-access" })
+	void detailsMethod() throws InterruptedException  //throws InterruptedException//ArithmeticException //
 	{
-		System.out.println("Checked Excpetion are being handled by Main Method");
+		//System.out.println("Checked Excpetion are being handled by Main Method");
 		//System.out.println(500/0);
-		Thread.sleep(56);
+		Thread.sleep(20);
+	
 		System.out.println("------------------");
 	}
-	public static void main(String[] args) throws InterruptedException
+	public static void main(String[] args) throws InterruptedException //throws InterruptedException
 	{
 		new ThrowsKeywordAtMainMethod().detailsMethod();
 	}
