@@ -1,5 +1,11 @@
 package com.java.exceptionalhandlingcodes;
-
+class testExcpetion
+{
+	void m1()
+	{
+		System.out.println("normal class");
+	}
+}
 public class VariousExceptionExamples {
 
 	VariousExceptionExamples()
@@ -8,9 +14,21 @@ public class VariousExceptionExamples {
       		{
       			String s= new String("rakesh");
       			Object o=(Object)s;
+      					System.out.println(o);
       	                System.out.println(s);
       	                System.out.println("class cast exception statement");
       			Object oo=new Object();
+      			 System.out.println(oo);
+      			 System.out.println(oo.getClass());
+      			System.out.println(oo.hashCode());
+      			System.out.println(oo.equals(o));
+      			System.out.println(oo.toString());
+      			
+	//As both reference variable are same so hashcode is alos same
+      			System.out.println("/n--------------------/n");
+      			System.out.println(s.hashCode());
+      			System.out.println(o.hashCode());
+      			System.out.println("s and o are equal -"+s.equals(o)); 
       			String str=(String)oo;
       		}
       		catch(ClassCastException ce)
@@ -57,6 +75,7 @@ public class VariousExceptionExamples {
 	}
 	public static void main(String [] args)
 	{
+		new testExcpetion().m1();
 		try {
                new VariousExceptionExamples();
 		}
