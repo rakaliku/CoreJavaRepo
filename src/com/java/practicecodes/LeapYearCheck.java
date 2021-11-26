@@ -3,7 +3,7 @@ package com.java.practicecodes;
 public class LeapYearCheck {
     public static void main (String[] args)
     {
-        int yr = 2001;
+        int yr = 2016;
         if (yr % 400 == 0)
         {
             if (yr % 100 == 0)
@@ -11,7 +11,7 @@ public class LeapYearCheck {
                 System.out.println("Year is leap year...");
             }
         }
-        else if (yr % 4== 0)
+        else if ((yr % 4== 0) && (yr%100 !=0))
         {
            System.out.println("Year is a leap year...");
         }
